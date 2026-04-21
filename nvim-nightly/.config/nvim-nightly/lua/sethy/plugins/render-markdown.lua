@@ -53,4 +53,9 @@ require("render-markdown").setup({
         checked   = { icon = " 󰱒 " },
     },
     anti_conceal = { ignore = { head_background = true } },
+    html = {
+        comment = {
+            conceal = false,
+        },
+    },
 })
